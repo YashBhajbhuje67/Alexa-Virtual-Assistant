@@ -13,9 +13,6 @@ import webbrowser
 from wikipedia.wikipedia import search
 import requests
 import nltk
-# nltk.download('averaged_perceptron_tagger')
-# nltk.download('stopwords')
-
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
@@ -172,11 +169,6 @@ def run_alexa():
         exit()
     else:
         talk('Please say the command again.')
-
-# i=1
-# while(i<=2):
-#     run_alexa()
-#     i=i+1
 
 
 while(True):
