@@ -1,7 +1,5 @@
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-from email import message
-from posixpath import commonpath
 import speech_recognition as sr
 import pyttsx3
 import pywhatkit
@@ -10,7 +8,6 @@ from datetime import date
 import wikipedia
 import pyjokes
 import webbrowser
-from wikipedia.wikipedia import search
 import requests
 import nltk
 
